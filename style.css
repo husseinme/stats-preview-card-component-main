@@ -21,3 +21,68 @@ body{
     font-family: inter;
 }
 
+/*TYPOGRAPHY*/
+h1, h2, h3, p{
+    margin: 0
+}
+
+p{
+    margin-top: 24px;
+    color: var(--white-75);
+}
+
+h3{
+    font-family: Lexend Deca;
+    color: var(--white-60);
+    font-weight: 400;
+    font-size: 0.7rem
+}
+
+.highlight{
+    color: var(--purple-500);
+}
+
+
+
+main{
+    display: flex;
+    background-color: var(--blue-950);
+    border-radius: 0.5rem;
+    max-width: 1130px;
+}
+
+.info-section, .img-section{
+    flex: 1;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.info-text-section{
+    width: 400px;
+    margin-bottom: auto;
+}
+
+
+
+/*Stats Section*/
+
+.stats-section{
+    display: flex;
+}
+
+.stat{
+    margin-right: auto;
+}
+
+.end-stat{
+    margin: 0;
+}
+
+
+img{
+    height: 100%;
+}
